@@ -1,0 +1,2401 @@
+# newdoc id = CIENCIA_2001_19858
+# global.Entity = eid-etype-head-other
+# sent_id = s1
+# text = Cientistas de o Centro de Estudos de Saclay, em a França, parecem ter encontrado o primeiro indício de que a Via Láctea esteja cercada por um verdadeiro campo minado de buracos negros, cerca de 1 milhão a o todo, eles estimam.
+1	Cientistas	cientista	NOUN	_	Number=Plur	14	nsubj	_	Entity=(e1-person-1-coref
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Centro	Centro	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	PROPN	_	_	4	flat	_	_
+6	Estudos	Estudos	PROPN	_	_	4	flat	_	_
+7	de	de	PROPN	_	_	4	flat	_	_
+8	Saclay	Saclay	PROPN	_	_	4	flat	_	Entity=e1)|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	França	França	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	parecem	parecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	ter	ter	AUX	_	VerbForm=Inf	16	aux	_	_
+16	encontrado	encontrar	VERB	_	VerbForm=Part	14	xcomp	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	indício	indício	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+20	de	de	SCONJ	_	_	26	mark	_	_
+21	que	que	SCONJ	_	_	26	mark	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(e5-place-2-coref
+23	Via	Via	PROPN	_	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+24	Láctea	Láctea	PROPN	_	_	23	flat	_	Entity=e5)
+25	esteja	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	cercada	cercado	ADJ	_	Gender=Fem|Number=Sing	19	acl	_	_
+27	por	por	ADP	_	_	30	case	_	_
+28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	campo	campo	NOUN	_	Gender=Masc|Number=Sing	26	obl:agent	_	_
+31	minado	minar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	acl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	buracos	buraco	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
+34	negros	negro	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	cerca	cerca	NOUN	_	Gender=Masc|Number=Sing	30	appos	_	_
+37	de	de	NOUN	_	_	36	flat	_	_
+38	1	1	NUM	_	NumType=Card	36	nummod	_	_
+39	milhão	milhão	NUM	_	NumType=Card	38	flat	_	_
+40	a	a	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	36	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	36	punct	_	_
+44	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	45	nsubj	_	Entity=(e1-person-1-ana)
+45	estimam	estimar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = s2
+# text = A pesquisa, que sai publicada hoje em a revista britânica "Nature" (www .nature .com), é a primeira a constatar que um buraco negro está orbitando o centro de a Via Láctea fora do plano de o disco galáctico.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(e9-abstract-2-coref
+2	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	Entity=e9)|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	5	nsubj	_	_
+5	sai	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	xcomp	_	_
+7	hoje	hoje	ADV	_	_	6	advmod	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(e11-organization-2-coref
+10	revista	revista	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	britânica	britânico	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Nature	Nature	PROPN	_	Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	Entity=e11)
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	www	www	X	_	_	10	appos	_	_
+17	.nature	.nature	X	_	_	16	flat:foreign	_	_
+18	.com	.com	X	_	_	16	flat:foreign	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	5	punct	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(e9-abstract-2-pred
+23	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	0	root	_	_
+24	a	a	SCONJ	_	_	25	mark	_	_
+25	constatar	constatar	VERB	_	VerbForm=Inf	23	acl	_	_
+26	que	que	SCONJ	_	_	31	mark	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	Entity=(e12-object-2-coref
+28	buraco	buraco	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+29	negro	negro	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	Entity=e12)
+30	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	orbitando	orbitar	VERB	_	VerbForm=Ger	25	ccomp	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	centro	centro	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	Entity=(e5-place-2-coref
+36	Via	Via	PROPN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+37	Láctea	Láctea	PROPN	_	_	36	flat	_	Entity=e5)
+38	fora	fora	VERB	_	_	31	advcl	_	_
+39	de	de	VERB	_	_	38	flat	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	plano	plano	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	Entity=(e15-place-2-coref
+44	disco	disco	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+45	galáctico	galáctico	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	Entity=e15)e9)|SpaceAfter=No
+46	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = s3
+# text = Atualmente, o objeto está a aproximadamente 6.000 anos-luz de o Sol, uma distância pequena, se comparada a o tamanho de a galáxia, com seus 100 mil anos-luz de diâmetro.
+1	Atualmente	atualmente	ADV	_	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(e12-object-2-coref
+4	objeto	objeto	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	Entity=e12)
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	a	a	ADP	_	_	9	case	_	_
+7	aproximadamente	aproximadamente	ADV	_	_	9	advmod	_	_
+8	6.000	6.000	NUM	_	NumType=Card	9	nummod	_	_
+9	anos-luz	anos-luz	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Sol	Sol	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	distância	distância	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
+16	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
+19	comparada	comparar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(e19-abstract-2-coref
+22	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(e5-place-2-coref
+25	galáxia	galáxia	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	Entity=e5)e19)|SpaceAfter=No
+26	,	,	PUNCT	_	_	19	punct	_	_
+27	com	com	ADP	_	_	31	case	_	_
+28	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	31	det	_	Entity=(e5-place-1-ana)
+29	100	100	NUM	_	NumType=Card	31	nummod	_	Entity=(e19-abstract-3-coref
+30	mil	mil	NUM	_	NumType=Card	29	flat	_	_
+31	anos-luz	anos-luz	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	Entity=e19)|SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = s4
+# text = O objeto em questão (um sistema duplo composto por um buraco negro sendo orbitado por uma estrela anã) já havia sido detectado desde o ano passado, mas só agora os cientistas puderam se assegurar de que ele não pertencia a o disco galáctico.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e43-object-2-coref
+2	objeto	objeto	NOUN	_	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	questão	questão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=e43)
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(e43-object-2-appos
+7	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+8	duplo	duplo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	composto	compor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(e12-object-2-coref
+12	buraco	buraco	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
+13	negro	negro	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	Entity=e12)
+14	sendo	ser	AUX	_	VerbForm=Ger	15	aux:pass	_	_
+15	orbitado	orbitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(e20-object-2-coref
+18	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	_
+19	anã	anã	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	Entity=e20)e43)|SpaceAfter=No
+20	)	)	PUNCT	_	_	7	punct	_	_
+21	já	já	ADV	_	_	24	advmod	_	_
+22	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+23	sido	ser	AUX	_	VerbForm=Part	24	aux:pass	_	_
+24	detectado	detectar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+25	desde	desde	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ano	ano	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+28	passado	passado	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	35	punct	_	_
+30	mas	mas	CCONJ	_	_	35	cc	_	_
+31	só	só	ADV	_	_	32	advmod	_	_
+32	agora	agora	ADV	_	_	35	advmod	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	Entity=(e1-person-2-coref
+34	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	35	nsubj	_	Entity=e1)
+35	puderam	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+36	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	expl	_	Entity=(e1-person-1-coref)
+37	assegurar	assegurar	VERB	_	VerbForm=Inf	35	xcomp	_	_
+38	de	de	SCONJ	_	_	42	mark	_	_
+39	que	que	SCONJ	_	_	42	mark	_	_
+40	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	Entity=(e43-object-1-ana)
+41	não	não	ADV	_	Polarity=Neg	42	advmod	_	_
+42	pertencia	pertencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	ccomp	_	_
+43	a	a	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	Entity=(e15-place-2-coref
+45	disco	disco	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	_
+46	galáctico	galáctico	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	Entity=e15)|SpaceAfter=No
+47	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = s5
+# text = Um buraco negro é o resultado de o colapso de uma estrela muito maciça.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	buraco	buraco	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	negro	negro	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	colapso	colapso	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	muito	muito	ADV	_	_	14	advmod	_	_
+14	maciça	maciço	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = s6
+# text = A força gravitacional existente em suas imediações é tão forte que nem a luz consegue escapar.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	força	força	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	gravitacional	gravitacional	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	existente	existente	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	7	det	_	_
+7	imediações	imediação	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	tão	tão	ADV	_	_	10	advmod	_	_
+10	forte	forte	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	nem	nem	CCONJ	_	_	15	cc	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	luz	luz	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+16	escapar	escapar	VERB	_	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = s7
+# text = Por isso é tão complicado identificar esses objetos.
+1	Por	por	ADP	_	_	2	case	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	tão	tão	ADV	_	_	5	advmod	_	_
+5	complicado	complicado	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	identificar	identificar	VERB	_	VerbForm=Inf	5	csubj	_	_
+7	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	objetos	objeto	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s8
+# text = Atualmente, o único meio seguro de aferir sua presença é observar astros próximos que estejam sob influência de sua gravidade.
+1	Atualmente	atualmente	ADV	_	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(e29-abstract-3-coref
+4	único	único	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	meio	meio	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+6	seguro	seguro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	de	de	SCONJ	_	_	8	mark	_	_
+8	aferir	aferir	VERB	_	VerbForm=Inf	5	acl	_	_
+9	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	10	det	_	_
+10	presença	presença	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Entity=e29)
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	observar	observar	VERB	_	VerbForm=Inf	0	root	_	Entity=(e29-abstract-1-pred
+13	astros	astro	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	_
+16	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	sob	sob	ADP	_	_	18	case	_	_
+18	influência	influência	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	21	det	_	_
+21	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Entity=e29)|SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = s9
+# text = A equipe rastreou a trajetória de o buraco negro usando novas observações e a análise de dados anteriores, coletados por 43 anos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(e1-person-2-coref
+2	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	Entity=e1)
+3	rastreou	rastrear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(e32-abstract-2-coref
+5	trajetória	trajetória	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(e12-object-2-coref
+8	buraco	buraco	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	negro	negro	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	Entity=e12)e32)
+10	usando	usar	VERB	_	VerbForm=Ger	3	advcl	_	_
+11	novas	novo	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	Entity=(e33-abstract-2-coref
+12	observações	observação	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	Entity=e33)
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	análise	análise	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	dados	dado	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	anteriores	anterior	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	coletados	coletar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	17	acl	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	43	43	NUM	_	NumType=Card	23	nummod	_	_
+23	anos	ano	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = s10
+# text = A partir dessas observações, eles calcularam a órbita de o astro e constataram que se trata de um objeto que passa a maior parte de o tempo em o halo galáctico, a região que circunda a Via Láctea.
+1	A	A	ADJ	_	Gender=Fem|Number=Plur	8	advcl	_	_
+2	partir	partir	ADJ	_	_	1	flat	_	_
+3-4	dessas	_	_	_	_	_	_	_	_
+3	de	de	ADJ	_	_	1	flat	_	_
+4	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	Entity=(e33-abstract-2-coref
+5	observações	observação	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	Entity=e33)|SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Entity=(e1-person-1-ana)
+8	calcularam	calcular	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	órbita	órbita	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(e12-object-2-coref
+13	astro	astro	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	Entity=e12)
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	constataram	constatar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+16	que	que	SCONJ	_	_	18	mark	_	_
+17	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+18	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	Entity=(e12-object-1-ana)
+19	de	de	ADP	_	_	21	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(e12-object-2-coref
+21	objeto	objeto	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	nsubj	_	_
+23	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	maior	maior	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+26	parte	parte	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	Entity=(e37-place-2-coref
+32	halo	halo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+33	galáctico	galáctico	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	Entity=e37)e12)|SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	Entity=(e37-place-2-appos
+36	região	região	NOUN	_	Gender=Fem|Number=Sing	32	appos	_	_
+37	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	38	nsubj	_	_
+38	circunda	circundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	Entity=(e5-place-1-coref
+40	Via	Via	PROPN	_	Gender=Fem|Number=Sing	38	obj	_	_
+41	Láctea	Láctea	PROPN	_	_	40	flat	_	Entity=e5)e37)|SpaceAfter=No
+42	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = s11
+# text = Além de "morar" em o halo, aparentemente ele também "nasceu" lá, dizem os cientistas.
+1	Além	Além	ADV	_	_	4	advmod	_	_
+2	de	de	ADV	_	_	1	flat	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	morar	morar	VERB	_	VerbForm=Inf	18	parataxis	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(e37-place-2-coref
+8	halo	halo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Entity=e37)|SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	aparentemente	aparentemente	ADV	_	_	14	advmod	_	_
+11	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Entity=(e12-object-1-ana)
+12	também	também	ADV	_	_	14	advmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	nasceu	nascer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	lá	lá	ADV	_	_	14	advmod	_	Entity=(e37-place-1-disc)|SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	Entity=(e1-person-2-coref
+20	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	Entity=e1)|SpaceAfter=No
+21	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = s12
+# text = "Há duas boas evidências de que ele tenha se formado em o próprio halo", disse a a Folha Felix Mirabel, pesquisador que liderou o grupo.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+3	duas	dois	NUM	_	NumType=Card	5	nummod	_	_
+4	boas	bom	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+5	evidências	evidência	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+6	de	de	SCONJ	_	_	11	mark	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
+8	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Entity=(e12-object-1-ana)
+9	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	Entity=(e12-object-1-ana)
+11	formado	formar	VERB	_	VerbForm=Part	5	acl	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(e37-place-3-coref
+14	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Emp	15	det	_	_
+15	halo	halo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	Entity=e37)|SpaceAfter=No
+16	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Folha	Folha	PROPN	_	Gender=Fem|Number=Sing	18	obj	_	_
+22	Felix	Felix	PROPN	_	_	21	flat	_	Entity=(e40-person-1-coref
+23	Mirabel	Mirabel	PROPN	_	_	21	flat	_	Entity=e40)|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	pesquisador	pesquisador	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	Entity=(e40-person-1-appos
+26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	_
+27	liderou	liderar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Entity=(e1-person-2-coref
+29	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	Entity=e1)e40)|SpaceAfter=No
+30	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = s13
+# text = "Uma é a trajetória em si, outra é o quanto a estrela vizinha foi consumida por o buraco negro, o que indica que o conjunto é muito velho."
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Uma	um	NUM	_	NumType=Card	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(e32-abstract-2-coref
+5	trajetória	trajetória	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	si	si	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod	_	Entity=e32)|SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	outra	outro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	5	nsubj	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(e820-abstract-2-coref
+12	quanto	quanto	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+13	a	a	DET	_	_	12	fixed	_	Entity=(e20-object-2-coref
+14	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+15	vizinha	vizinho	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	Entity=e20)
+16	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	consumida	consumir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(e12-object-2-coref
+20	buraco	buraco	NOUN	_	Gender=Masc|Number=Sing	17	obl:agent	_	_
+21	negro	negro	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	Entity=e12)e820)|SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	Entity=(e820-abstract-2-disc
+24	que	que	PRON	_	_	23	fixed	_	Entity=e820)
+25	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+26	que	que	SCONJ	_	_	31	mark	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	Entity=(e43-object-2-coref
+28	conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	Entity=e43)
+29	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	muito	muito	ADV	_	_	31	advmod	_	_
+31	velho	velho	ADJ	_	Gender=Masc|Number=Sing	25	ccomp	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s14
+# text = Busca contínua.
+1	Busca	busca	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = s15
+# text = Um buraco negro nascido em a própria Via Láctea que tivesse sido atirado para fora posteriormente, provavelmente por a explosão de uma estrela (fenômeno conhecido como supernova), era justamente o que Mirabel vinha procurando desde que iniciou sua pesquisa, há cinco anos.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	buraco	buraco	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
+3	negro	negro	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	nascido	nascer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(e5-place-3-coref
+7	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Emp	8	det	_	_
+8	Via	Via	PROPN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9	Láctea	Láctea	PROPN	_	_	8	flat	_	Entity=e5)
+10	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	nsubj:pass	_	_
+11	tivesse	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+12	sido	ser	AUX	_	VerbForm=Part	13	aux:pass	_	_
+13	atirado	atirar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	fora	fora	ADV	_	_	13	advmod	_	_
+16	posteriormente	posteriormente	ADV	_	_	13	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	_
+18	provavelmente	provavelmente	ADV	_	_	13	advmod	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	explosão	explosão	NOUN	_	Gender=Fem|Number=Sing	13	obl:agent	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	_
+27	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	_
+28	como	como	ADP	_	_	29	case	_	_
+29	supernova	supernova	NOUN	_	Gender=Fem|Number=Sing	27	xcomp	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	13	punct	_	_
+32	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	cop	_	_
+33	justamente	justamente	ADV	_	_	34	advmod	_	_
+34	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+35	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	37	obj	_	_
+36	Mirabel	Mirabel	PROPN	_	Gender=Masc|Number=Sing	37	nsubj	_	Entity=(e40-person-1-coref)
+37	vinha	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	acl:relcl	_	_
+38	procurando	procurar	VERB	_	VerbForm=Ger	37	xcomp	_	_
+39	desde	desde	SCONJ	_	_	41	mark	_	_
+40	que	que	SCONJ	_	_	39	fixed	_	_
+41	iniciou	iniciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	advcl	_	_
+42	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	43	det	_	Entity=(e9-abstract-2-coref(e40-person-1-ana)
+43	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	Entity=e9)|SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
+46	cinco	cinco	NUM	_	NumType=Card	47	nummod	_	_
+47	anos	ano	NOUN	_	Gender=Masc|Number=Plur	45	obj	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = s16
+# text = Ainda não foi de esta vez que ele achou, mas a meta pode não estar longe.
+1	Ainda	ainda	ADV	_	_	2	advmod	_	_
+2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+3	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Entity=(e40-person-1-ana)
+9	achou	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	mas	mas	CCONJ	_	_	14	cc	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	meta	meta	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	não	não	ADV	_	Polarity=Neg	17	advmod	_	_
+16	estar	estar	AUX	_	VerbForm=Inf	17	cop	_	_
+17	longe	longe	ADV	_	_	14	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = s17
+# text = Seu grupo está atualmente concluindo um segundo estudo, que deve em os próximos meses ser submetido a uma revista científica, abordando não um, mas cinco astros, sendo um de eles o mencionado em a pesquisa publicada hoje.
+1	Seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	Entity=(e1-person-2-coref(e40-person-1-ana)
+2	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	Entity=e1)
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	atualmente	atualmente	ADV	_	_	5	advmod	_	_
+5	concluindo	concluir	VERB	_	VerbForm=Ger	0	root	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(e50-abstract-3-coref
+7	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Entity=e50)|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	11	nsubj	_	_
+11	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+15	meses	mês	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	submetido	submeter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	revista	revista	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+21	científica	científico	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	abordando	abordar	VERB	_	VerbForm=Ger	17	advcl	_	_
+24	não	não	ADV	_	Polarity=Neg	25	advmod	_	_
+25	um	um	NUM	_	NumType=Card	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	mas	mas	CCONJ	_	_	29	cc	_	_
+28	cinco	cinco	NUM	_	NumType=Card	29	nummod	_	Entity=(e53-object-2-coref
+29	astros	astro	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	Entity=e53)|SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	sendo	ser	AUX	_	VerbForm=Ger	32	cop	_	_
+32	um	um	NUM	_	NumType=Card	23	advcl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	nmod	_	Entity=(e53-object-1-ana)
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	Entity=(e12-object-2-disc
+36	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	Entity=(e9-abstract-2-coref
+39	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+40	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	39	acl	_	_
+41	hoje	hoje	ADV	_	_	40	advmod	_	Entity=e9)e12)|SpaceAfter=No
+42	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s18
+# text = O material incluirá um segundo buraco negro pertencente a o halo galáctico.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e50-abstract-2-coref
+2	material	material	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	Entity=e50)
+3	incluirá	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	buraco	buraco	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	negro	negro	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	pertencente	pertencente	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(e37-place-2-coref
+11	halo	halo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	galáctico	galáctico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Entity=e37)|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = s19
+# text = E um de os astros "parece ter um sinal de que tenha sido 'chutado' para fora de a galáxia", diz Irapuan Rodrigues, pesquisador brasileiro de o grupo, que por a primeira vez publica em a "Nature".
+1	E	e	CCONJ	_	_	7	cc	_	_
+2	um	um	NUM	_	NumType=Card	7	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Entity=(e53-object-2-coref
+5	astros	astro	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Entity=e53)
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
+8	ter	ter	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	SCONJ	_	_	16	mark	_	_
+12	que	que	SCONJ	_	_	16	mark	_	_
+13	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	sido	ser	AUX	_	VerbForm=Part	16	aux:pass	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	chutado	chutar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	para	para	ADP	_	_	16	case	_	_
+19	fora	fora	ADV	_	_	16	advmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(e5-place-2-coref
+22	galáxia	galáxia	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	Entity=e5)|SpaceAfter=No
+23	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	Irapuan	Irapuan	PROPN	_	Gender=Masc|Number=Sing	24	nsubj	_	Entity=(e56-person-1-coref
+27	Rodrigues	Rodrigues	PROPN	_	_	25	flat	_	Entity=e56)|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	pesquisador	pesquisador	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	Entity=(e56-person-1-appos
+30	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	Entity=(e1-person-2-coref
+33	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	Entity=e1)e56)|SpaceAfter=No
+34	,	,	PUNCT	_	_	39	punct	_	_
+35	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	39	nsubj	_	_
+36	por	por	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	primeira	primeira	ADP	_	_	39	case	_	_
+39	vez	vez	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	_
+40	publica	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	Entity=(e11-organization-3-coref
+43	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	Nature	Nature	PROPN	_	Gender=Fem|Number=Sing	39	obl	_	Entity=e11)|SpaceAfter=No
+45	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = s20
+# text = A nova pesquisa promete ter impacto ainda maior em o meio científico de o que o estudo atual.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(e50-abstract-3-coref
+2	nova	novo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	Entity=e50)
+4	promete	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ter	ter	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	ainda	ainda	ADV	_	_	8	advmod	_	_
+8	maior	maior	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	meio	meio	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	científico	científico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	de	de	ADP	_	_	17	case	_	_
+14	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	fixed	_	_
+15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	fixed	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(e9-abstract-2-coref
+17	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+18	atual	atual	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Entity=e9)|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = s21
+# text = Segundo Rodrigues, a equipe vai propor uma nova classificação para objetos de o tipo, dividindo -os entre os pertencentes a o halo e os que vêm de o disco galáctico.
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	Rodrigues	Rodrigues	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	Entity=(e56-person-1-coref)|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(e1-person-2-coref
+5	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	Entity=e1)
+6	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	propor	propor	VERB	_	VerbForm=Inf	0	root	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	nova	novo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11	para	para	ADP	_	_	12	case	_	_
+12	objetos	objeto	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	dividindo	dividir	VERB	_	VerbForm=Ger	7	advcl	_	_
+18	-os	eleos	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	entre	entre	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	pertencentes	pertencente	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(e37-place-2-coref
+24	halo	halo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	Entity=e37)
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	21	conj	_	_
+27	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	28	nsubj	_	_
+28	vêm	vir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Entity=(e15-place-2-coref
+31	disco	disco	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+32	galáctico	galáctico	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	Entity=e15)|SpaceAfter=No
+33	.	.	PUNCT	_	_	7	punct	_	_
+
+# newdoc id = CIENCIA_2004_26417
+# global.Entity = eid-etype-head-other
+# sent_id = s22
+# text = Foi -se o tempo em que decifrar o genoma de um organismo era um desafio e tanto.
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	-se	-se	PRON	_	Case=Acc|PronType=Prs	1	nsubj	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	obl	_	_
+7	decifrar	decifrar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	4	acl:relcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	genoma	genoma	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	organismo	organismo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	4	acl:relcl	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	tanto	tanto	ADV	_	_	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = s23
+# text = Agora os cientistas já agarram um punhado de eles de uma vez e trabalham em todos a o mesmo tempo.
+1	Agora	agora	ADV	_	_	5	advmod	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	já	já	ADV	_	_	5	advmod	_	_
+5	agarram	agarrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	punhado	punhado	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	trabalham	trabalhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	14	obl	_	_
+17	a	a	ADP	_	_	20	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s24
+# text = Está iniciada a era de a genômica por atacado.
+1	Está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	iniciada	iniciar,iniciado	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	era	era	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	genômica	genômica	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	Entity=(e670-abstract-2-coref
+8	por	por	SCONJ	_	_	9	mark	_	_
+9	atacado	atacar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	Entity=e670)|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = s25
+# text = O primeiro resultado positivo de essa nova estratégia para estudos de o material hereditário de seres vivos teve como objeto os resíduos tóxicos deixados por uma velha mina californiana.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(e98-abstract-3-coref
+2	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+4	positivo	positivo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	Entity=(e670-abstract-3-disc
+7	nova	novo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+9	para	para	ADP	_	_	10	case	_	_
+10	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(e224--2
+13	material	material	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	hereditário	hereditário	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	Entity=e224)
+15	de	de	ADP	_	_	16	case	_	_
+16	seres	ser	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17	vivos	vivo	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	Entity=e670)e98)
+18	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	como	como	ADP	_	_	20	case	_	_
+20	objeto	objeto	NOUN	_	Gender=Masc|Number=Sing	18	xcomp	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	Entity=(e70-object-2-coref
+22	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+23	tóxicos	tóxico	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+24	deixados	deixar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	22	acl	_	_
+25	por	por	ADP	_	_	28	case	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	velha	velho	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+28	mina	mina	NOUN	_	Gender=Fem|Number=Sing	24	obl:agent	_	_
+29	californiana	californiano	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	Entity=e70)|SpaceAfter=No
+30	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = s26
+# text = A partir de amostras de um lodo rosado que os cientistas têm a delicadeza de chamar de "biofilme", foi possível catalogar dois genomas completos e ainda pedaços de outros três, cujos donos eram bactérias e micróbios extremófilos.
+1	A	A	VERB	_	_	23	advcl	_	_
+2	partir	partir	VERB	_	_	1	flat	_	_
+3	de	de	VERB	_	_	1	flat	_	_
+4	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	Entity=(e97-object-1-coref
+5	de	de	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(e70-object-2-coref
+7	lodo	lodo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	rosado	rosado	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Entity=e70)e97)
+9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	12	obj	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	delicadeza	delicadeza	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	SCONJ	_	_	16	mark	_	_
+16	chamar	chamar	VERB	_	VerbForm=Inf	14	acl	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	biofilme	biofilme	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	Entity=(e70-object-1-coref)|SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	12	punct	_	_
+22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+23	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+24	catalogar	catalogar	VERB	_	VerbForm=Inf	23	csubj	_	_
+25	dois	dois	NUM	_	NumType=Card	26	nummod	_	_
+26	genomas	genoma	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+27	completos	completo	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	ainda	ainda	ADV	_	_	30	advmod	_	_
+30	pedaços	pedaço	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	33	det	_	_
+33	três	três	NUM	_	NumType=Card	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	38	punct	_	_
+35	cujos	cujo	DET	_	Gender=Masc|Number=Plur|PronType=Rel	36	det	_	_
+36	donos	dono	NOUN	_	Gender=Masc|Number=Plur	38	nsubj	_	_
+37	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	38	cop	_	_
+38	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	33	acl:relcl	_	_
+39	e	e	CCONJ	_	_	40	cc	_	_
+40	micróbios	micróbio	NOUN	_	Gender=Masc|Number=Plur	38	conj	_	_
+41	extremófilos	extremófilo	ADJ	_	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = s27
+# text = A chamada genômica ambiental tem por objetivo entender não o funcionamento de um organismo, mas de uma coleção de eles interagindo entre si.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(e670-abstract-3-coref
+2	chamada	chamado	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	genômica	genômica	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ambiental	ambiental	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	Entity=e670)
+5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	entender	entender	VERB	_	VerbForm=Inf	5	xcomp	_	_
+9	não	não	ADV	_	Polarity=Neg	11	advmod	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	organismo	organismo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	mas	mas	CCONJ	_	_	19	cc	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	coleção	coleção	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nmod	_	_
+22	interagindo	interagir	VERB	_	VerbForm=Ger	19	acl	_	_
+23	entre	entre	ADP	_	_	24	case	_	_
+24	si	si	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s28
+# text = Os cientistas buscam fazer isso despedaçando o DNA de os seres vivos em a própria amostra e então decifrando as letras genéticas contidas em cada um de os pequenos trechos.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	buscam	buscar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fazer	fazer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+6	despedaçando	despedaçar	VERB	_	VerbForm=Ger	4	advcl	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	DNA	DNA	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	seres	ser	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	vivos	vivo	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13	em	em	ADP	_	_	16	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Emp	16	det	_	_
+16	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	então	então	ADV	_	_	19	advmod	_	_
+19	decifrando	decifrar	VERB	_	VerbForm=Ger	6	conj	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	letras	letra	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+22	genéticas	genético	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+23	contidas	conter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	21	acl	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	cada	cada	DET	_	Gender=Masc|Number=Sing	23	obl	_	_
+26	um	um	NUM	_	NumType=Card	25	fixed	_	_
+27	de	de	ADP	_	_	30	case	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	pequenos	pequeno	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	_
+30	trechos	trecho	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = s29
+# text = Depois de isso, juntam tudo em o computador, montando um verdadeiro quebra-cabeças genômico.
+1	Depois	depois	ADV	_	_	5	advmod	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	juntam	juntar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	computador	computador	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	montando	montar	VERB	_	VerbForm=Ger	5	advcl	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	verdadeiro	verdadeiro	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+14	quebra-cabeças	quebra-cabeças	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+15	genômico	genômico	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s30
+# text = A técnica é basicamente a mesma que fez com que a empresa americana Celera pudesse, de forma incomodamente célere, obter uma seqüência mais ou menos completa de todo o DNA humano.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	basicamente	basicamente	ADV	_	_	6	advmod	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+7	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	com	com	SCONJ	_	_	15	mark	_	_
+10	que	que	SCONJ	_	_	15	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	americana	americano	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	Celera	Celera	PROPN	_	Gender=Fem|Number=Sing	12	appos	_	_
+15	pudesse	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	forma	forma	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19	incomodamente	incomodamente	ADV	_	_	20	advmod	_	_
+20	célere	célere	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	obter	obter	VERB	_	VerbForm=Inf	15	xcomp	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	seqüência	seqüência	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	mais	mais	ADV	_	_	28	advmod	_	_
+26	ou	ou	ADV	_	_	25	flat	_	_
+27	menos	menos	ADV	_	_	25	flat	_	_
+28	completa	completo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+29	de	de	ADP	_	_	32	case	_	_
+30	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	32	det	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	DNA	DNA	PROPN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+33	humano	humano	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = s31
+# text = Com a diferença de que agora as peças de DNA não só estariam embaralhadas, como também pertenceriam a vários quebra-cabeças diferentes.
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	SCONJ	_	_	14	mark	_	_
+5	que	que	SCONJ	_	_	14	mark	_	_
+6	agora	agora	ADV	_	_	14	advmod	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	peças	peça	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	DNA	DNA	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	não	não	ADV	_	Polarity=Neg	14	advmod	_	_
+12	só	só	ADV	_	_	14	advmod	_	_
+13	estariam	estar	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	14	cop	_	_
+14	embaralhadas	embaralhado	ADJ	_	Gender=Fem|Number=Plur	3	acl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	como	como	ADV	_	_	18	cc	_	_
+17	também	também	ADV	_	_	16	fixed	_	_
+18	pertenceriam	pertencer	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	14	conj	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	quebra-cabeças	quebra-cabeça	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+22	diferentes	diferente	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = s32
+# text = Apesar de a genômica ambiental parecer ser uma boa idéia, como se pode imaginar, em princípio, não é fácil de executar.
+1	Apesar	Apesar	SCONJ	_	_	6	mark	_	_
+2	de	de	SCONJ	_	_	1	fixed	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Entity=(e670-abstract-2-coref
+4	genômica	genômica	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	ambiental	ambiental	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	Entity=e670)
+6	parecer	parecer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	22	advcl	_	_
+7	ser	ser	AUX	_	VerbForm=Inf	10	cop	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	boa	bom	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	idéia	idéia	NOUN	_	Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	como	como	SCONJ	_	_	14	advmod	_	_
+13	se	se	PRON	_	Case=Acc|PronType=Prs	14	nsubj	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+15	imaginar	imaginar	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	não	não	ADV	_	Polarity=Neg	22	advmod	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	fácil	fácil	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+23	de	de	SCONJ	_	_	24	mark	_	_
+24	executar	executar	VERB	_	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = s33
+# text = Se a amostra a ser analisada contiver milhares de organismos diferentes, há uma dificuldade natural de recompor o quebra-cabeças após a leitura de as seqüências de DNA.
+1	Se	se	SCONJ	_	_	7	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	a	a	SCONJ	_	_	6	mark	_	_
+5	ser	ser	AUX	_	Number=Sing|Person=3|VerbForm=Inf	6	aux:pass	_	_
+6	analisada	analisar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+7	contiver	contiver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+8	milhares	milhar	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	diferentes	diferente	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dificuldade	dificuldade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	natural	natural	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	de	de	SCONJ	_	_	18	mark	_	_
+18	recompor	recompor	VERB	_	VerbForm=Inf	15	acl	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	quebra-cabeças	quebra-cabeças	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	após	após	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	seqüências	seqüência	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	DNA	DNA	PROPN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = s34
+# text = A sorte de os cientistas liderados por Jillian Banfield, de a Universidade da Califórnia em Berkeley, foi que a amostra de efluentes ácidos analisada tinha um pequeno número de organismos.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Entity=(e93-person-2-coref
+5	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	liderados	liderar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	Jillian	Jillian	PROPN	_	Gender=Fem|Number=Sing	6	obl:agent	_	_
+9	Banfield	Banfield	PROPN	_	_	8	flat	_	Entity=e93)|SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Universidade	Universidade	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+14	da	da	PROPN	_	_	13	flat	_	_
+15	Califórnia	Califórnia	PROPN	_	_	13	flat	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	Berkeley	Berkeley	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	13	punct	_	_
+19	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	que	que	SCONJ	_	_	27	mark	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(e97-object-2-coref
+22	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	Entity=(e70-object-1-coref
+25	ácidos	ácido	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	Entity=e70)
+26	analisada	analisar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	Entity=e97)
+27	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	_
+28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	pequeno	pequeno	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	número	número	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = s35
+# text = "Obtivemos a primeira reconstrução de múltiplos genomas diretamente de uma amostra natural", escreveram os cientistas em seu artigo, que foi publicado anteontem, eletronicamente, por a revista científica "Nature" (www .nature .com).
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Obtivemos	obter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	parataxis	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(e98-abstract-3-disc
+4	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	reconstrução	reconstrução	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	múltiplos	múltiplo	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+8	genomas	genoma	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	diretamente	diretamente	ADV	_	_	2	advmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	natural	natural	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	Entity=e98)|SpaceAfter=No
+14	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	2	punct	_	_
+16	escreveram	escrever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	Entity=(e93-person-2-coref
+18	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	Entity=e93)
+19	em	em	ADP	_	_	21	case	_	_
+20	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	21	det	_	Entity=(e93-person-1-ana)
+21	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	25	nsubj:pass	_	_
+24	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+25	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	21	acl:relcl	_	_
+26	anteontem	anteontem	ADV	_	_	25	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	eletronicamente	eletronicamente	ADV	_	_	25	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	25	punct	_	_
+30	por	por	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	revista	revista	NOUN	_	Gender=Fem|Number=Sing	25	obl:agent	_	_
+33	científica	científico	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	Nature	Nature	PROPN	_	Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	www	www	X	_	_	32	appos	_	_
+39	.nature	.nature	X	_	_	38	flat:foreign	_	_
+40	.com	.com	X	_	_	38	flat:foreign	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = s36
+# text = "Os resultados fornecem novos lampejos sobre a estrutura de a comunidade e revelam as estratégias que marcam a atividade microbiana em esse ambiente", dizem.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	Entity=(e98-abstract-2-disc
+3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	Entity=e98)
+4	fornecem	fornecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	parataxis	_	_
+5	novos	novo	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	lampejos	lampejo	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	sobre	sobre	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(e102-object-2-coref
+12	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Entity=e102)
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	revelam	revelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	estratégias	estratégia	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	18	nsubj	_	_
+18	marcam	marcar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	microbiana	microbiano	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	Entity=(e70-object-2-disc
+24	ambiente	ambiente	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	Entity=e70)|SpaceAfter=No
+25	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	dizem	dizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = s37
+# text = Mais que oferecer novas e inéditas informações sobre efluentes tóxicos provenientes de minas (um problema ambiental presente em o mundo todo), os pesquisadores abriram a porta, ainda que timidamente, para o que pode ser uma revolução genômica.
+1	Mais	mais	ADV	_	ExtPos=SCONJ	3	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	oferecer	oferecer	VERB	_	VerbForm=Inf	27	advcl	_	_
+4	novas	novo	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	inéditas	inédito	ADJ	_	Gender=Fem|Number=Plur	4	conj	_	_
+7	informações	informação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+8	sobre	sobre	ADP	_	_	9	case	_	_
+9	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	Entity=(e105-object-1-coref
+10	tóxicos	tóxico	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	provenientes	proveniente	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	minas	mina	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	Entity=e105)
+14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	problema	problema	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+17	ambiental	ambiental	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	presente	presente	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	21	det	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	3	punct	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	Entity=(e93-person-2-coref
+26	pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	Entity=e93)
+27	abriram	abrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	porta	porta	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	27	punct	_	_
+31	ainda	ainda	ADV	_	ExtPos=SCONJ	38	mark	_	_
+32	que	que	SCONJ	_	_	31	fixed	_	_
+33	timidamente	timidamente	ADV	_	_	38	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	para	para	SCONJ	_	_	36	case	_	_
+36	o	o	PRON	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+37	que	que	PRON	_	_	36	fixed	_	_
+38	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+39	ser	ser	AUX	_	VerbForm=Inf	41	cop	_	_
+40	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	revolução	revolução	NOUN	_	Gender=Fem|Number=Sing	38	xcomp	_	_
+42	genômica	genômico	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = s38
+# text = "A reconstrução de os genomas foi facilitada por o fato de que a comunidade era dominada por populações de poucas espécies distintas", escrevem.
+1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(e98-abstract-2-disc
+3	reconstrução	reconstrução	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	genomas	genoma	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	Entity=e98)
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	facilitada	facilitar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	26	parataxis	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fato	fato	NOUN	_	Gender=Masc|Number=Sing	8	obl:agent	_	_
+12	de	de	SCONJ	_	_	17	mark	_	_
+13	que	que	SCONJ	_	_	17	mark	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(e102-object-2-coref
+15	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	Entity=e102)
+16	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	_
+17	dominada	dominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	populações	população	NOUN	_	Gender=Fem|Number=Plur	17	obl:agent	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	poucas	pouco	DET	_	Gender=Fem|Number=Plur|PronType=Ind	22	det	_	_
+22	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+23	distintas	distinto	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	escrevem	escrever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = s39
+# text = "Entretanto, mesmo em ambientes mais complexos, deve ser possível ampliar [a técnica] para recuperar os genomas de espécies e linhagens não - cultivadas." (SALVADOR NOGUEIRA)
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	Entretanto	entretanto	ADV	_	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	mesmo	mesmo	ADV	_	_	6	advmod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	ambientes	ambiente	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	complexos	complexo	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	cop	_	_
+12	possível	possível	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	_
+13	ampliar	ampliar	VERB	_	VerbForm=Inf	12	csubj	_	_
+14	[a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	]	_	PUNCT	_	_	15	punct	_	_
+17	para	para	SCONJ	_	_	18	mark	_	_
+18	recuperar	recuperar	VERB	_	VerbForm=Inf	13	advcl	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	genomas	genoma	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	_
+25	não	não	ADV	_	Polarity=Neg	27	advmod	_	_
+26	-	-	PUNCT	_	_	27	punct	_	_
+27	cultivadas	cultivar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	22	acl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	10	punct	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	SALVADOR	SALVADOR	PROPN	_	Gender=Masc|Number=Sing	10	parataxis	_	_
+32	NOGUEIRA	NOGUEIRA	PROPN	_	_	31	flat	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	31	punct	_	_
+
+# newdoc id = CIENCIA_2000_17082
+# global.Entity = eid-etype-head-other
+# sent_id = s40
+# text = O Instituto Nacional de Pesquisas Espaciais (Inpe) prediz um aumento de temperatura de até 5C em as áreas mais secas de a Amazônia, em 50 anos, se a emissão de gases por queimadas permanecer em os níveis atuais.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e112-organization-2-coref
+2	Instituto	Instituto	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	Nacional	Nacional	PROPN	_	_	2	flat	_	_
+4	de	de	PROPN	_	_	2	flat	_	_
+5	Pesquisas	Pesquisas	PROPN	_	_	2	flat	_	_
+6	Espaciais	Espaciais	PROPN	_	_	2	flat	_	Entity=e112)
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Inpe	Inpe	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	Entity=(e112-organization-1-appos)|SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	prediz	predizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	até	até	ADP	_	_	17	case	_	_
+17	5C	5C	NUM	_	NumType=Card	14	nmod	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	áreas	área	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+21	mais	mais	ADV	_	_	22	advmod	_	_
+22	secas	seco	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(e115-place-2-coref
+25	Amazônia	Amazônia	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	Entity=e115)|SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	50	50	NUM	_	NumType=Card	29	nummod	_	_
+29	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	se	se	SCONJ	_	_	38	mark	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	emissão	emissão	NOUN	_	Gender=Fem|Number=Sing	38	nsubj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	gases	gás	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
+36	por	por	ADP	_	_	37	case	_	_
+37	queimadas	queimada	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
+38	permanecer	permanecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	Entity=(e122-abstract-2-coref
+41	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	38	obl	_	_
+42	atuais	atual	ADJ	_	Gender=Masc|Number=Plur	41	amod	_	Entity=e122)|SpaceAfter=No
+43	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = s41
+# text = Esse é o pior panorama climático previsto por o instituto, disse Carlos Nobre, que participou de o debate "Cenários da Amazônia", em a 52ª Reunião Anual de a SBPC.
+1	Esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	Entity=(e113-abstract-1-disc)
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(e113-abstract-3-pred
+4	pior	pior	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	panorama	panorama	NOUN	_	Gender=Masc|Number=Sing	12	parataxis	_	_
+6	climático	climático	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	previsto	prever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(e112-organization-2-coref
+10	instituto	instituto	NOUN	_	Gender=Masc|Number=Sing	7	obl:agent	_	Entity=e112)e113)|SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Carlos	Carlos	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	Entity=(e123-person-1-coref
+14	Nobre	Nobre	PROPN	_	_	13	flat	_	Entity=e123)|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	_
+17	participou	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	debate	debate	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Cenários	Cenários	PROPN	_	Gender=Masc|Number=Sing	20	appos	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	PROPN	_	_	22	flat	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(e115-place-2-coref
+25	Amazônia	Amazônia	PROPN	_	_	22	flat	_	Entity=e115)|SpaceAfter=No
+26	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	17	punct	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	52ª	52ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	31	amod	_	_
+31	Reunião	Reunião	PROPN	_	Gender=Fem|Number=Sing	17	obl	_	_
+32	Anual	Anual	PROPN	_	_	30	flat	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	SBPC	SBPC	PROPN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = s42
+# text = Ele afirmou que o aumento de temperatura, que pode chegar a 3C em as áreas úmidas, seria um desastre.
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e123-person-1-ana)
+2	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	21	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	10	nsubj	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	chegar	chegar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	3C	3C	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	áreas	área	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+17	úmidas	úmido	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	11	punct	_	_
+19	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	21	cop	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	desastre	desastre	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = s43
+# text = A elevação de temperatura viria acompanhada de redução de as chuvas em até 15 %, aumentando o risco de incêndio, inexistente há três décadas.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	elevação	elevação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	viria	vir	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	acompanhada	acompanhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	xcomp	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	redução	redução	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	chuvas	chuva	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	até	até	ADP	_	_	15	case	_	_
+14	15	15	NUM	_	NumType=Card	15	nummod	_	_
+15	%	%	SYM	_	_	8	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	aumentando	aumentar	VERB	_	VerbForm=Ger	6	advcl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	risco	risco	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	incêndio	incêndio	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	inexistente	inexistente	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+24	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+25	três	três	NUM	_	NumType=Card	26	nummod	_	_
+26	décadas	década	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s44
+# text = Os dois fenômenos climáticos combinados levariam a a desertificação de algumas áreas, disse ele.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	dois	dois	NUM	_	NumType=Card	3	nummod	_	_
+3	fenômenos	fenômeno	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	climáticos	climático	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	combinados	combinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	3	acl	_	_
+6	levariam	levar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	14	parataxis	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	desertificação	desertificação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	áreas	área	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Entity=(e123-person-1-ana)|SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = s45
+# text = Nobre disse que o Brasil está entre os dez países que mais poluem a atmosfera com a emissão de gás carbônico por causa do o desmatamento com queimadas.
+1	Nobre	Nobre	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e123-person-1-coref)
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	10	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(e1230-place-2-coref
+5	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	Entity=e1230)
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	entre	entre	ADP	_	_	10	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	dez	dez	NUM	_	NumType=Card	10	nummod	_	_
+10	países	país	NOUN	_	Gender=Masc|Number=Plur	2	ccomp	_	_
+11	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	13	nsubj	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	poluem	poluir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(e138-place-2-coref
+15	atmosfera	atmosfera	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	Entity=e138)
+16	com	com	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	emissão	emissão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	gás	gás	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	Entity=(e120-object-1-coref
+21	carbônico	carbônico	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	Entity=e120)
+22	por	por	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
+23	causa	causa	VERB	_	_	22	flat	_	_
+24	do	do	VERB	_	_	22	flat	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	desmatamento	desmatamento	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+27	com	com	ADP	_	_	28	case	_	_
+28	queimadas	queimada	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = s46
+# text = O Brasil emite 280 milhões de toneladas de carbono (sobretudo CO2, ou gás carbônico) em a atmosfera por ano.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e1230-place-2-coref
+2	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	Entity=e1230)
+3	emite	emitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	280	280	NUM	_	NumType=Card	3	obj	_	Entity=(e140-object-6-coref
+5	milhões	milhão	NUM	_	NumType=Card	4	flat	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	carbono	carbono	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Entity=e140)
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	sobretudo	sobretudo	ADV	_	_	12	advmod	_	_
+12	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	ou	ou	CCONJ	_	_	15	cc	_	_
+15	gás	gás	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	Entity=(e120-object-1-coref
+16	carbônico	carbônico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Entity=e120)|SpaceAfter=No
+17	)	)	PUNCT	_	_	12	punct	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(e138-place-2-coref
+20	atmosfera	atmosfera	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	Entity=e138)
+21	por	por	ADP	_	_	22	case	_	_
+22	ano	ano	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = s47
+# text = De esse total, 200 milhões se devem a o desmatamento.
+1	De	de	ADP	_	_	3	case	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Entity=(e140-object-2-ana
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	Entity=e140)|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	200	200	NUM	_	NumType=Card	8	nsubj	_	Entity=(e122-object-2-coref
+6	milhões	milhão	NUM	_	NumType=Card	5	flat	_	Entity=e122)
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl	_	Entity=(e122-object-1-ana)
+8	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	desmatamento	desmatamento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = s48
+# text = O gás carbônico é o principal causador de o efeito estufa (retenção de o calor solar em a atmosfera).
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e120-object-2-coref
+2	gás	gás	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	carbônico	carbônico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Entity=e120)
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(e120-object-3-pred
+6	principal	principal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	causador	causador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	estufa	estufa	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	Entity=e120)
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	calor	calor	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	solar	solar	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(e138-place-2-coref
+20	atmosfera	atmosfera	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	Entity=e138)|SpaceAfter=No
+21	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = s49
+# text = O desmatamento de a Amazônia atingiu 16.926 km2 em 99, disse a secretária de Coordenação da Amazônia do Ministério de o Meio Ambiente, Mary Allegretti.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	desmatamento	desmatamento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(e115-place-2-coref
+5	Amazônia	Amazônia	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=e115)
+6	atingiu	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+7	16.926	16.926	NUM	_	NumType=Card	8	nummod	_	_
+8	km2	km2	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	99	99	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	Entity=(e146-person-2-coref
+14	secretária	secretária	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Coordenação	Coordenação	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	da	da	PROPN	_	_	16	flat	_	Entity=(e115-place-2-coref
+18	Amazônia	Amazônia	PROPN	_	_	16	flat	_	Entity=e115)
+19	do	do	PROPN	_	_	16	flat	_	_
+20	Ministério	Ministério	PROPN	_	_	16	flat	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Meio	Meio	PROPN	_	Number=Sing	16	nmod	_	_
+24	Ambiente	Ambiente	PROPN	_	_	23	flat	_	Entity=e146)|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	Mary	Mary	PROPN	_	Gender=Fem|Number=Sing	14	appos	_	Entity=(e146-person-1-
+27	Allegretti	Allegretti	PROPN	_	_	26	flat	_	Entity=e146)|SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = s50
+# text = Foi melhor que em 98 (17.383 km2).
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	melhor	melhor	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	98	98	NUM	_	NumType=Card	2	obl	_	_
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	17.383	17.383	NUM	_	NumType=Card	8	nummod	_	_
+8	km2	km2	NOUN	_	Gender=Masc|Number=Plur	5	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = s51
+# text = "Há tendência de queda", disse.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+3	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	queda	queda	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = s52
+# text = Adalberto Veríssimo, de a ONG Imazon, apresentou estudo segundo o qual as cidades em regiões amazônicas ocupadas de forma predatória duram por volta de 23 anos.
+1	Adalberto	Adalberto	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	Entity=(e169-person-1-coref
+2	Veríssimo	Veríssimo	PROPN	_	_	1	flat	_	Entity=e169)|SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ONG	ONG	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7	Imazon	Imazon	PROPN	_	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	Entity=(e170-abstract-1-coref)
+11	segundo	segundo	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(e170-abstract-1-ana
+13	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	obl	_	Entity=e170)
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	regiões	região	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	amazônicas	amazônico	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	ocupadas	ocupar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	17	acl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	forma	forma	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+22	predatória	predatório	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+23	duram	durar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+24	por	por	VERB	_	_	23	xcomp	_	Entity=(e174-time-5-coref
+25	volta	volta	VERB	_	_	24	flat	_	_
+26	de	de	VERB	_	_	24	flat	_	_
+27	23	23	NUM	_	NumType=Card	28	nummod	_	_
+28	anos	ano	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	Entity=e174)|SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = s53
+# text = Depois de isso, entram em colapso total, por falta de uma política de desenvolvimento sustentável.
+1	Depois	depois	ADV	_	_	5	advmod	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	Entity=(e174-time-1-disc)|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	entram	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	colapso	colapso	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	total	total	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	falta	falta	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	política	política	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	sustentável	sustentável	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s54
+# text = Ele citou como exemplo as cidades de Paragominas (PA), Açailândia (MA) e Humaitá (AM).
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e169-person-1-ana)
+2	citou	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	como	como	ADP	_	_	4	case	_	_
+4	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Paragominas	Paragominas	PROPN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	PA	PA	PROPN	_	Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	Açailândia	Açailândia	PROPN	_	Gender=Fem|Number=Sing	8	conj	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	MA	MA	PROPN	_	Gender=Fem|Number=Sing	13	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	Humaitá	Humaitá	PROPN	_	Gender=Fem|Number=Sing	8	conj	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	AM	AM	PROPN	_	Gender=Fem|Number=Sing	18	parataxis	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# newdoc id = CIENCIA_2004_26415
+# global.Entity = eid-etype-head-other
+# sent_id = s56
+# text = Para um desavisado parece até obsessão freudiana, mas Hendrik Poynar está pedindo a todos os seus conhecidos a maior quantidade de fezes possível, quanto mais velhas, melhores.
+1	Para	para	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	desavisado	desavisado	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+4	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	até	até	ADV	_	_	6	advmod	_	_
+6	obsessão	obsessão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	freudiana	freudiano	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	mas	mas	CCONJ	_	_	13	cc	_	_
+10	Hendrik	Hendrik	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	Entity=(e179-person-1-coref
+11	Poynar	Poynar	PROPN	_	_	10	flat	_	Entity=e179)
+12	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	pedindo	pedir	VERB	_	VerbForm=Ger	4	conj	_	_
+14	a	a	ADP	_	_	18	case	_	_
+15	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	18	det	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	fixed	_	_
+17	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	18	det	_	Entity=(e179-person-1-ana)
+18	conhecidos	conhecido	NOUN	_	Gender=Masc|Number=Plur	13	iobj	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	maior	maior	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	fezes	fez	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
+24	possível	possível	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	quanto	quanto	NOUN	_	Gender=Fem|Number=Plur	23	amod	_	_
+27	mais	mais	NOUN	_	_	26	flat	_	_
+28	velhas	velho	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	melhores	bom	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = s57
+# text = Bioantropólogo de a Universidade MacMaster, em o Canadá, está prestes a investigar a relação entre neandertais e humanos modernos olhando não para seus crânios, mas para o que eles defecavam, e para as moléculas que podem contar a história de eles, ocultas ali dentro.
+1	Bioantropólogo	Bioantropólogo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	Entity=(e179-person-1-coref
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Universidade	Universidade	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	MacMaster	MacMaster	PROPN	_	_	4	flat	_	Entity=e179)|SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Canadá	Canadá	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	prestes	prestes	ADJ	_	_	0	root	_	_
+13	a	a	SCONJ	_	_	14	mark	_	_
+14	investigar	investigar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(e185-abstract-2-coref
+16	relação	relação	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	entre	entre	ADP	_	_	18	case	_	_
+18	neandertais	neandertal	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	Entity=(e186-animal-1-coref
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	humanos	humano	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+21	modernos	moderno	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	Entity=e186)e185)
+22	olhando	olhar	VERB	_	VerbForm=Ger	14	advcl	_	_
+23	não	não	ADV	_	Polarity=Neg	26	advmod	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	26	det	_	Entity=(e186-animal-1-ana)
+26	crânios	crânio	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	30	punct	_	_
+28	mas	mas	CCONJ	_	_	30	cc	_	_
+29	para	para	ADP	_	_	30	case	_	_
+30	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	26	conj	_	Entity=(e189-object-2-coref
+31	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	obj	_	_
+32	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	Entity=(e186-animal-1-ana)
+33	defecavam	defecar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	Entity=e189)|SpaceAfter=No
+34	,	,	PUNCT	_	_	38	punct	_	_
+35	e	e	CCONJ	_	_	38	cc	_	_
+36	para	para	ADP	_	_	38	case	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	26	conj	_	_
+39	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	40	nsubj	_	_
+40	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+41	contar	contar	VERB	_	VerbForm=Inf	40	xcomp	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	história	história	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	43	nmod	_	Entity=(e186-animal-1-ana)|SpaceAfter=No
+46	,	,	PUNCT	_	_	47	punct	_	_
+47	ocultas	ocultas	ADV	_	_	45	appos	_	_
+48	ali	ali	ADV	_	_	47	flat	_	Entity=(e189-object-1-disc
+49	dentro	dentro	ADV	_	_	47	flat	_	Entity=e189)|SpaceAfter=No
+50	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = s58
+# text = "Estamos recolhendo amostras de coprólitos [fezes fossilizadas] de duas cavernas em Israel com 40 mil anos, onde provavelmente Cro-Magnons [os primeiros humanos modernos] e neandertais viveram lado a lado", contou o pesquisador durante a reunião de a AAAS (Associação Americana para o Avanço da Ciência).
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	recolhendo	recolher	VERB	_	VerbForm=Ger	38	parataxis	_	_
+4	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	Entity=(e193-object-1-coref
+5	de	de	ADP	_	_	6	case	_	_
+6	coprólitos	coprólito	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+7	[fezes	[fez	NOUN	_	Gender=Masc|Number=Plur	6	amod	_	_
+8	fossilizadas	fossilizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	SpaceAfter=No
+9	]	_	PUNCT	_	_	12	punct	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	duas	dois	NUM	_	NumType=Card	12	nummod	_	Entity=(e194-place-2-coref
+12	cavernas	caverna	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Israel	Israel	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	Entity=e194)e193)
+15	com	com	ADP	_	_	18	case	_	_
+16	40	40	NUM	_	NumType=Card	18	nummod	_	_
+17	mil	mil	NUM	_	NumType=Card	16	flat	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	32	punct	_	_
+20	onde	onde	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	32	obl	_	Entity=(e194-place-1-disc)
+21	provavelmente	provavelmente	ADV	_	_	22	advmod	_	_
+22	Cro-Magnons	Cro-Magnon	PROPN	_	Gender=Masc|Number=Sing	32	nsubj	_	Entity=(e186-animal-1-coref
+23	[os	[os	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+24	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	27	amod	_	_
+25	humanos	humano	NOUN	_	Gender=Masc|Number=Plur	22	appos	_	_
+26	modernos	moderno	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+27	]	_	PUNCT	_	_	31	punct	_	_
+28	e	e	CCONJ	_	_	31	cc	_	_
+29	neandertais	neandertal	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	Entity=e186)
+30	viveram	viver	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	acl:relcl	_	_
+31	lado	lado	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+32	a	a	ADP	_	_	35	case	_	_
+33	lado	lado	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	Entity=(e179-person-2-coref
+38	pesquisador	pesquisador	NOUN	_	Gender=Masc|Number=Sing	39	nsubj	_	Entity=e179)
+39	durante	durante	ADP	_	_	43	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+41	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
+42	de	de	ADP	_	_	46	case	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+44	AAAS	AAAS	PROPN	_	Gender=Fem|Number=Sing	43	nmod	_	Entity=(e200-organization-1-coref)
+45	(	(	PUNCT	_	_	48	punct	_	SpaceAfter=No
+46	Associação	Associação	PROPN	_	Gender=Fem|Number=Sing	47	appos	_	Entity=(e200-organization-1-appos
+47	Americana	Americana	PROPN	_	_	48	flat	_	_
+48	para	para	ADP	_	_	51	case	_	_
+49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	nmod	_	_
+50	Avanço	Avanço	PROPN	_	Number=Sing	48	flat:name	_	_
+51	da	da	PROPN	_	_	52	flat	_	_
+52	Ciência	Ciência	PROPN	_	_	53	flat	_	Entity=e200)|SpaceAfter=No
+53	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = s59
+# text = Dadas as características muito especiais de preservação que as fezes podem alcançar, há grandes chances de elas terem preservado mais DNA de o que o que se pode extrair de ossos, bem como proteínas e outras moléculas.
+1	Dadas	dar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	14	advcl	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	características	característica	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+4	muito	muito	ADV	_	_	5	advmod	_	_
+5	especiais	especial	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	preservação	preservação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+8	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	12	obj	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	fezes	fez	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+11	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+12	alcançar	alcançar	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	grandes	grande	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+16	chances	chance	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	de	de	SCONJ	_	_	20	mark	_	_
+18	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	Entity=(e193-object-1-ana)
+19	terem	ter	AUX	_	Number=Plur|Person=3|VerbForm=Inf	20	aux	_	_
+20	preservado	preservar	VERB	_	VerbForm=Part	16	acl	_	_
+21	mais	mais	DET	_	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+22	DNA	DNA	PROPN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	ExtPos=SCONJ	29	mark	_	_
+24	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	23	fixed	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	fixed	_	_
+26	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	obl	_	_
+27	que	que	PRON	_	_	26	fixed	_	_
+28	se	se	PRON	_	Case=Acc|PronType=Prs	30	nsubj	_	_
+29	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+30	extrair	extrair	VERB	_	VerbForm=Inf	29	xcomp	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	ossos	osso	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	36	punct	_	_
+34	bem	bem	ADV	_	_	36	cc	_	_
+35	como	como	ADP	_	_	34	fixed	_	_
+36	proteínas	proteína	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	_
+37	e	e	CCONJ	_	_	39	cc	_	_
+38	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	39	det	_	_
+39	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = s60
+# text = Poynar pretende usar esse material, que segundo ele tende a ter aparência e consistência de chocolate, para extrair o máximo de informação possível sobre os dois grupos de humanos que habitaram a Palestina em o fim de a Era do Gelo.
+1	Poynar	Poynar	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e179-person-1-coref)
+2	pretende	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	usar	usar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Entity=(e193-object-2-disc
+5	material	material	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Entity=e193)|SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	10	nsubj	_	_
+8	segundo	segundo	ADP	_	_	9	case	_	_
+9	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	Entity=(e179-person-1-ana)
+10	tende	tender	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	a	a	SCONJ	_	_	12	mark	_	_
+12	ter	ter	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	aparência	aparência	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	consistência	consistência	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	chocolate	chocolate	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	para	para	SCONJ	_	_	20	mark	_	_
+20	extrair	extrair	VERB	_	VerbForm=Inf	3	advcl	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	informação	informação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	possível	possível	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	sobre	sobre	ADP	_	_	29	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	Entity=(e186-animal-3-coref
+28	dois	dois	NUM	_	NumType=Card	29	nummod	_	_
+29	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	humanos	humano	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+32	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	33	nsubj	_	_
+33	habitaram	habitar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	29	acl:relcl	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Palestina	Palestina	PROPN	_	Gender=Fem|Number=Sing	33	obj	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	fim	fim	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Era	Era	PROPN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+42	do	do	PROPN	_	_	41	flat	_	_
+43	Gelo	Gelo	PROPN	_	_	41	flat	_	Entity=e186)|SpaceAfter=No
+44	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = s61
+# text = Os sedimentos de a caverna, que formam uma impressionante série temporal que vai até 150 mil anos atrás, também vão ser peneirados.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	Entity=(e193-object-2-coref
+2	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	24	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(e194-place-2-coref
+5	caverna	caverna	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=e194)e193)|SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	8	nsubj	_	_
+8	formam	formar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	impressionante	impressionante	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	série	série	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	temporal	temporal	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
+14	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	até	até	ADP	_	_	18	case	_	_
+16	150	150	NUM	_	NumType=Card	18	nummod	_	_
+17	mil	mil	NUM	_	NumType=Card	16	flat	_	_
+18	anos	ano	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+19	atrás	atrás	ADV	_	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	14	punct	_	_
+21	também	também	ADV	_	_	24	advmod	_	_
+22	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	ser	ser	AUX	_	VerbForm=Inf	24	aux:pass	_	_
+24	peneirados	peneirar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = s62
+# text = "Depois de isso, o que você faz é basicamente sequenciar tudo o que está ali e examinar toda a cadeia de relações alimentares, ecológicas e de parentesco de as pessoas e animais que habitaram a caverna", afirma.
+1	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+2	Depois	depois	ADV	_	_	12	advmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
+7	que	que	PRON	_	_	6	fixed	_	_
+8	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	basicamente	basicamente	ADV	_	_	12	advmod	_	_
+12	sequenciar	sequenciar	VERB	_	VerbForm=Inf	42	parataxis	_	_
+13	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	_
+14	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	fixed	_	_
+15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	fixed	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	ali	ali	ADV	_	_	12	ccomp	_	Entity=(e193-object-1-disc)
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	examinar	examinar	VERB	_	VerbForm=Inf	12	conj	_	_
+20	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	22	det	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(e185-abstract-2-coref
+22	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	relações	relação	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+25	alimentares	alimentar	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	ecológicas	ecológico	ADJ	_	Gender=Fem|Number=Plur	25	conj	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	parentesco	parentesco	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	Entity=(e186-animal-2-coref
+33	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	animais	animal	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	_
+36	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	37	nsubj	_	_
+37	habitaram	habitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	33	acl:relcl	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	Entity=(e194-place-2-coref
+39	caverna	caverna	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	Entity=e194)e186)e185)|SpaceAfter=No
+40	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = s63
+# text = Poynar também disse estar apostando todas as suas fichas para a melhor compreensão de a evolução humana em a chamada paleoproteômica, o estudo de as proteínas em fósseis.
+1	Poynar	Poynar	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	Entity=(e179-person-1-coref)
+2	também	também	ADV	_	_	3	advmod	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	estar	estar	AUX	_	VerbForm=Inf	5	aux	_	_
+5	apostando	apostar	VERB	_	VerbForm=Ger	3	xcomp	_	_
+6	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	9	det	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	9	det	_	Entity=(e179-person-1-ana)
+9	fichas	ficha	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+10	para	para	ADP	_	_	13	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	melhor	melhor	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	compreensão	compreensão	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	evolução	evolução	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	humana	humano	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	em	em	ADP	_	_	21	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	chamada	chamado	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	paleoproteômica	paleoproteômica	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	Entity=(e210-abstract-1-coref)|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(e210-abstract-2-appos
+24	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	proteínas	proteína	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	fósseis	fóssil	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	Entity=e210)|SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+# newdoc id = CIENCIA_2000_17112
+# global.Entity = eid-etype-head-other
+# sent_id = s65
+# text = O mundo está mais seco de o que se imaginava.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e215-place-2-coref
+2	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	Entity=e215)
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	mais	mais	ADV	_	_	5	advmod	_	_
+5	seco	seco	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	de	de	ADP	_	ExtPos=SCONJ	10	mark	_	_
+7	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	fixed	_	_
+8	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	fixed	_	_
+9	se	se	PRON	_	Case=Acc|PronType=Prs	10	nsubj	_	_
+10	imaginava	imaginar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s66
+# text = Um estudo publicado em a edição de hoje de a revista "Science" afirma que 1,75 bilhão de pessoas já enfrentam severa escassez de água em o planeta.
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e216-abstract-2-coref
+2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	edição	edição	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	hoje	hoje	ADV	_	_	6	advmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	revista	revista	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Science	Science	PROPN	_	Gender=Fem|Number=Sing	11	appos	_	Entity=e216)|SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	que	que	SCONJ	_	_	22	mark	_	_
+17	1,75	1,75	NUM	_	NumType=Card	22	nsubj	_	_
+18	bilhão	bilhão	NUM	_	NumType=Card	17	flat	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	já	já	ADV	_	_	22	advmod	_	_
+22	enfrentam	enfrentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+23	severa	severo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+24	escassez	escassez	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	água	água	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	Entity=(e217-object-1-coref)
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Entity=(e215-place-2-coref
+29	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	Entity=e215)|SpaceAfter=No
+30	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = s67
+# text = A estimativa anterior, de a ONU (Organização das Nações Unidas), calculava em meio bilhão o número de indivíduos expostos atualmente a o problema.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	estimativa	estimativa	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	anterior	anterior	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(e218-organization-2-coref
+7	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	Entity=e218)
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Organização	Organização	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	Entity=(e218-organization-1-appos
+10	das	das	PROPN	_	_	9	flat	_	_
+11	Nações	Nações	PROPN	_	_	9	flat	_	_
+12	Unidas	Unidas	PROPN	_	_	9	flat	_	Entity=e218)|SpaceAfter=No
+13	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	7	punct	_	_
+15	calculava	calcular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	meio	meio	NUM	_	NumType=Card	15	obl	_	_
+18	bilhão	bilhão	NUM	_	NumType=Card	17	flat	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	número	número	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	indivíduos	indivíduo	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23	expostos	expor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	22	acl	_	_
+24	atualmente	atualmente	ADV	_	_	23	advmod	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	problema	problema	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = s68
+# text = Por severa escassez de água potável, entende -se, segundo a ONU, o uso de mais de 40 % de as reservas de o líquido disponíveis em uma região para consumo industrial, doméstico e agrícola.
+1	Por	por	ADP	_	_	3	case	_	_
+2	severa	severo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	escassez	escassez	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	água	água	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	Entity=(e217-object-1-coref
+6	potável	potável	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	Entity=e217)|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	entende	entender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	-se	-se	PRON	_	Case=Acc|PronType=Prs	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	segundo	segundo	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(e218-organization-2-coref
+13	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	8	obl	_	Entity=e218)|SpaceAfter=No
+14	,	,	PUNCT	_	_	8	punct	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	uso	uso	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+17	de	de	ADP	_	_	21	case	_	_
+18	mais	mais	ADV	_	_	20	advmod	_	_
+19	de	de	ADP	_	_	18	fixed	_	_
+20	40	40	NUM	_	NumType=Card	21	nummod	_	_
+21	%	%	SYM	_	_	16	nmod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	reservas	reserva	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	Entity=(e217-object-2-coref
+27	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	Entity=e217)
+28	disponíveis	disponível	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	região	região	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+32	para	para	ADP	_	_	33	case	_	_
+33	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+34	industrial	industrial	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	doméstico	doméstico	ADJ	_	Gender=Masc|Number=Sing	34	conj	_	_
+37	e	e	CCONJ	_	_	38	cc	_	_
+38	agrícola	agrícola	ADJ	_	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = s69
+# text = O trabalho foi coordenado por o geocientista Charles Vörösmarty, de a Universidade de New Hampshire, em os Estados Unidos.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(e216-abstract-2-coref
+2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	Entity=e216)
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	coordenado	coordenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(e219-person-2-coref
+7	geocientista	geocientista	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	Charles	Charles	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
+9	Vörösmarty	Vörösmarty	PROPN	_	_	8	flat	_	Entity=e219)|SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Universidade	Universidade	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+14	de	de	PROPN	_	_	13	flat	_	_
+15	New	New	PROPN	_	_	13	flat	_	_
+16	Hampshire	Hampshire	PROPN	_	_	13	flat	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+21	Unidos	Unidos	PROPN	_	_	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = s70
+# text = Para realizar o cálculo, a equipe de Vörösmarty dividiu o mundo em 60 mil microrregiões.
+1	Para	para	SCONJ	_	_	2	mark	_	_
+2	realizar	realizar	VERB	_	VerbForm=Inf	10	advcl	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(e220-person-2-coref
+7	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Vörösmarty	Vörösmarty	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	Entity=(e219-person-1-coref)e220)
+10	dividiu	dividir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(e215-place-2-coref
+12	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	Entity=e215)
+13	em	em	ADP	_	_	16	case	_	_
+14	60	60	NUM	_	NumType=Card	16	nummod	_	_
+15	mil	mil	NUM	_	NumType=Card	14	flat	_	_
+16	microrregiões	microrregião	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = s71
+# text = Depois, estimou a quantidade de água doce sustentável (presente em rios e reservatórios de superfície) disponível em cada região.
+1	Depois	depois	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	estimou	estimar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	água	água	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	doce	doce	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	sustentável	sustentável	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	presente	presente	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	rios	rio	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	11	punct	_	_
+19	disponível	disponível	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	22	det	_	_
+22	região	região	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = s72
+# text = A projeção de os cientistas para o ano 2025 é que 3,3 bilhões de pessoas não tenham mais água para irrigação, a atividade humana que mais consome o líquido.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	projeção	projeção	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Entity=(e220-person-2-coref
+5	cientistas	cientista	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Entity=e220)
+6	para	para	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ano	ano	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	2025	2025	NUM	_	NumType=Card	8	nummod	_	_
+10	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	que	que	SCONJ	_	_	17	mark	_	_
+12	3,3	3,3	NUM	_	NumType=Card	17	nsubj	_	_
+13	bilhões	bilhão	NUM	_	NumType=Card	12	flat	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+16	não	não	ADV	_	Polarity=Neg	17	advmod	_	_
+17	tenham	ter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+18	mais	mais	DET	_	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	água	água	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	Entity=(e217-object-1-coref)
+20	para	para	ADP	_	_	21	case	_	_
+21	irrigação	irrigação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
+25	humana	humano	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	28	nsubj	_	_
+27	mais	mais	ADV	_	_	28	advmod	_	_
+28	consome	consumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	Entity=(e217-object-2-disc
+30	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	Entity=e217)|SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = s73
+# text = Todos os cálculos anteriores levavam em conta macrorregiões, como países e continentes.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	anteriores	anterior	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	levavam	levar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	em	em	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	conta	conta	NOUN	_	_	6	flat	_	_
+8	macrorregiões	macrorregião	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	como	como	ADP	_	_	11	case	_	_
+11	países	país	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	continentes	continente	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = s74
+# text = Eram, portanto, menos precisos.
+1	Eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	portanto	portanto	CCONJ	_	_	6	cc	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	menos	menos	ADV	_	_	6	advmod	_	_
+6	precisos	preciso	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = s75
+# text = "O que nós fizemos foi um ajuste fino", disse o pesquisador a a Folha, por telefone.
+1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2	O	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	obj	_	_
+4	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Entity=(e220-person-1-ana)
+5	fizemos	fazer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ajuste	ajuste	NOUN	_	Gender=Masc|Number=Sing	12	parataxis	_	_
+9	fino	fino	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(e219-person-2-coref
+14	pesquisador	pesquisador	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	Entity=e219)
+15	a	a	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Folha	Folha	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	12	punct	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = s76
+# text = "Descobrimos que os recursos hídricos locais em algumas áreas estão simplesmente esgotados", afirmou.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Descobrimos	descobrir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+3	que	que	SCONJ	_	_	13	mark	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Entity=(e217-object-2-coref
+5	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+6	hídricos	hídrico	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	Entity=e217)
+7	locais	local	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	áreas	área	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+11	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	simplesmente	simplesmente	ADV	_	_	13	advmod	_	_
+13	esgotados	esgotar	ADJ	_	Gender=Masc|Number=Plur	2	ccomp	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	2	punct	_	_
+16	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = s77
+# text = As áreas mais atingidas, claro, são as regiões áridas de o norte de a África, de a Ásia Central e de o Oriente Médio.
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	Entity=(e2161-place-2-coref
+2	áreas	área	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	atingidas	atingir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	Entity=e2161)|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	claro	claro	ADV	_	_	10	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	Entity=(e2161-place-2-pred
+10	regiões	região	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+11	áridas	árido	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	norte	norte	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	África	África	PROPN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Ásia	Ásia	PROPN	_	Gender=Fem|Number=Sing	17	conj	_	_
+22	Central	Central	PROPN	_	_	21	flat	_	_
+23	e	e	CCONJ	_	_	26	cc	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Oriente	Oriente	PROPN	_	Gender=Masc|Number=Sing	17	conj	_	_
+27	Médio	Médio	PROPN	_	_	26	flat	_	Entity=e2161)|SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = s78
+# text = Mas zonas de intensa urbanização recente, como o sul de os EUA e o norte de o México, também foram incluídas em o novo mapa de a escassez.
+1	Mas	mas	CCONJ	_	_	23	cc	_	_
+2	zonas	zona	NOUN	_	Gender=Fem|Number=Plur	23	nsubj:pass	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	intensa	intenso	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	urbanização	urbanização	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	recente	recente	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	como	como	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sul	sul	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	EUA	EUA	PROPN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	norte	norte	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	México	México	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	10	punct	_	_
+21	também	também	ADV	_	_	23	advmod	_	_
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	23	aux:pass	_	_
+23	incluídas	incluir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+24	em	em	ADP	_	_	27	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	novo	novo	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+27	mapa	mapa	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	escassez	escassez	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = s79
+# text = "A demanda aumenta de forma drástica em o mundo todo", afirmou o especialista em recursos hídricos José Galizia Tundisi, de o Instituto Internacional de Ecologia, em São Carlos (SP).
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	demanda	demanda	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	aumenta	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	forma	forma	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	drástica	drástico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(e215-place-2-coref
+10	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Entity=e215)
+11	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	10	det	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(e223-person-1-coref
+16	especialista	especialista	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	Entity=(e217-object-1-coref
+19	hídricos	hídrico	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	Entity=e217)
+20	José	José	PROPN	_	Gender=Masc|Number=Sing	18	appos	_	_
+21	Galizia	Galizia	PROPN	_	_	20	flat	_	_
+22	Tundisi	Tundisi	PROPN	_	_	20	flat	_	Entity=e223)|SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Instituto	Instituto	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+27	Internacional	Internacional	PROPN	_	_	26	flat	_	_
+28	de	de	PROPN	_	_	26	flat	_	_
+29	Ecologia	Ecologia	PROPN	_	_	26	flat	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	26	punct	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	São	São	PROPN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+33	Carlos	Carlos	PROPN	_	_	32	flat	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	SP	SP	PROPN	_	Gender=Masc|Number=Sing	32	parataxis	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = s80
+# text = "As metrópoles não têm recursos hídricos suficientes para suportar o crescimento populacional", disse Tundisi.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	metrópoles	metrópole	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+5	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+6	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	Entity=(e217-object-1-coref
+7	hídricos	hídrico	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	Entity=e217)
+8	suficientes	suficiente	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+9	para	para	SCONJ	_	_	10	mark	_	_
+10	suportar	suportar	VERB	_	VerbForm=Inf	8	advcl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	populacional	populacional	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Tundisi	Tundisi	PROPN	_	Gender=Masc|Number=Sing	16	nsubj	_	Entity=(e223-person-1-coref)|SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
